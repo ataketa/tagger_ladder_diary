@@ -1,2 +1,2 @@
-# tagger_ladder_diary
-something about the experiment of tagger and ladder
+# tagger_ladder_diary  
+###关于ladder和tagger的一些事
