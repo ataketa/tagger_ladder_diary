@@ -1,4 +1,4 @@
-# 关于tagger和ladder的代码一些事
+# 关于tagger和ladder的代码的一些事
 
 ### 一、总述
 
