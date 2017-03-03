@@ -26,7 +26,7 @@ python run.py train --dataset mnist --encoder-layers 1000-500-250-250-250-10 --d
 >不要在activate ladder的情况下使用fuel-convert
 
 ### 6、遇到float32出错之类的问题
->在~/.theano中另floatx=float32
+>在~/.theano中令floatx=float32
 >把pip的blocks和fuel模块都删了，运行
 ```
 pip install git+git://github.com/mila-udem/blocks.git@release-0.2
