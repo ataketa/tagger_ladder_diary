@@ -48,13 +48,3 @@ theano.printing.pydotprin
 *** InvocationException: Program terminated with status: -11. stderr follows: []
 ```
 
-## 附件、先前经验
->1、安装cuda8.0,配置好环境变量;  
-2、安装anaconda2  
-3、执行指令  conda install libgcc更新编译器  
-3、安装cnmem http://www.cnblogs.com/ZJUT-jiangnan/p/5532724.html  
-4、通过anaconda2安装theano，执行指令 conda install theano，并配置好环境变量，测试是否是GPU版theano  (http://www.linuxidc.com/Linux/2016-09/135528.htm)  
-5、执行 git clone https://github.com/CuriousAI/tagger 下载tagger源代码  
-6、执行./install.sh 配置tagger所需的实验环境，注意，其中可能会出现git错误，执行指令git init，再重新执行./install.sh  
-7、执行完毕后tagger-master文件下的ladder文件夹是空的，将https://github.com/CuriousAI/ladder/tree/5a8daa1760535ec4aa25c20c531e1cc31c76d911下的所有文件下载后再复制进ladder文件夹  
-8、执行程序可能会出现float32,float64数据类型错误，修改/home/media/anaconda2/envs/tagger/lib/python2.7/site-packages/theano/gof/op.py文件，在最后那个from import语句后加上theano.config.floatX = 'float32'   ，如果不行在tagger-master文件夹下的tagger.py文件中也添加上theano.config.floatX = 'float32'  
