@@ -33,7 +33,7 @@ pip install git+git://github.com/mila-udem/blocks.git@release-0.2
 ```
 
 ## ii、关于实验的速度
-### 1、700组数据用于train，100组用于test，耗时11分钟左右(titain x),错误率27%。
+### 1、700组数据用于train，100组用于test，耗时11分钟左右(1块titain x),错误率27%。
 >具体代码如下
 ```
 python run.py train --dataset mnist --encoder-layers 1000-500-250-250-250-10 --decoder-spec gauss --denoising-cost-x 1000,10,0.1,0.1,0.1,0.1,0.1 --labeled-samples 100 --unlabeled-samples 600 --batch-size 100 --valid-batch-size 100 --valid-set-size 1000 --seed 1 -- mnist_100_full
