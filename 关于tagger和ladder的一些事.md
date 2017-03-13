@@ -30,6 +30,7 @@ training_algorithm = GradientDescent(
     on_unused_sources='warn',
     theano_func_kwargs={'on_unused_input': 'warn'}
 )
+...
 ```
 
 >>```python
