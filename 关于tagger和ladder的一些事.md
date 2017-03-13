@@ -132,4 +132,4 @@ and 10,000 testing images. The images are grayscale and 28 x 28 pixels
 large. It is accessible through Yann LeCun’s website [LECUN].</p>
 ...
 >
->可见他们的基类都是H5PYDataset。也就是说，我们只要把关于如何把自己的数据，也包装成H5PYDataset的实例（这个在fuel的教程上有说），就几乎可以直接使用ladder中各种关于数据输入以及预处理的代码了（还有一点点会根据不同数据库而定制的代码，还是要自己写的）
+>可见他们的基类都是H5PYDataset。也就是说，我们只要知道如何把自己的数据，也包装成H5PYDataset的实例（这个在fuel的教程上有说），就几乎可以直接使用ladder中各种关于数据输入以及预处理的代码了（还有一点点会根据不同数据库而定制的代码，还是要自己写的）
